@@ -3,7 +3,7 @@
 <h3 align="center">
     <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
     <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-    v2ray core <a href="https://github.com/neovim/neovim">(Go)</a><a href="https://github.com/vim/vim">lang</a>
+    v2ray core <a href="https://github.com/v2fly/v2ray-core">(Go)</a><a href="https://github.com/v2fly/v2ray-core">lang</a>
     <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
