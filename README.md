@@ -2,9 +2,9 @@
 
 <h3 align="center">
     <img src="https://github.com/AkariOficial/v2ray_golang/raw/main/assets/logo/waifu.png" width="130" alt="Logo"/><br/>
-    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="10" width="0px"/>
     v2ray core <a href="https://github.com/AkariOficial/v2ray_golang">(Go)</a><a href="https://github.com/v2fly/v2ray-core">lang</a>
-    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
+    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="10" width="0px"/>
 </h3>
 
 <p align="center">
