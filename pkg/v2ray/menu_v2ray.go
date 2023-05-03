@@ -38,7 +38,7 @@ func validateOption(option Option) error {
 }
 
 /*
-Menu do v2ray
+Menu of the v2ray
 */
 func Menu() (string, error) {
     showMenu()
