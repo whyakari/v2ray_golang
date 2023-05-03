@@ -1,5 +1,5 @@
 builds:
-  - binary: askcloudhelloworld
+  - binary: v2ray
     goos:
       - darwin
       - linux
