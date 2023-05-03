@@ -1,3 +1,5 @@
+go_version: 1.20
+
 builds:
   - binary: v2ray
     goos:
