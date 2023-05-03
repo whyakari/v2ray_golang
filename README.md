@@ -16,5 +16,5 @@
 </p>
 
 <p align="center">
-This <strong>UNOFFICIAL</strong> <a href="https://github.com/v2fly/v2ray-core/">v2ray</a> project.
+This based on <strong>UNOFFICIAL</strong> <br> <a href="https://github.com/v2fly/v2ray-core/">v2ray</a> project.
 </p>
