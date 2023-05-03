@@ -10,7 +10,7 @@
 <p align="center">
     <a href="https://github.com/AkariOficial/v2ray_golang/stargazers"><img src="https://img.shields.io/github/stars/AkariOficial/v2ray_golang?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
     <a href="https://github.com/AkariOficial/v2ray_golang/issues"><img src="https://img.shields.io/github/issues/AkariOficial/v2ray_golang?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/nvim/contributors"><img src="https://img.shields.io/github/contributors/AkariOficial/v2ray_golang?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+    <a href="https://github.com/AkariOficial/v2ray_golang/contributors"><img src="https://img.shields.io/github/contributors/AkariOficial/v2ray_golang?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
