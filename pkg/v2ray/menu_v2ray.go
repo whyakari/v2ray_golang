@@ -1,7 +1,10 @@
 package v2ray
 
 import (
-    "fmt"
+	"fmt"
+	"os"
+
+	"github.com/AkariOficial/v2ray_golang/pkg/v2ray"
 )
 
 type Option struct {
@@ -50,7 +53,19 @@ func Menu() (string, error) {
         return "", err
     }
 
-    fmt.Println(option.value)
+    if option.value == "1" {
+        opts := v2ray.SubMenuV2ray()
+        opts = v2ray.SubMenuV2rayFuncoes(opts)
+
+    } else if option.value == "2" {
+		fmt.Println("nao disponivel")
+        v2ray.Menu()
+	} else if option.value == "0" {
+		os.Exit(0)
+	} else {
+		fmt.Println("Opção inválida! Tente novamente.")
+	}
+
     return option.value, nil
 }
 
