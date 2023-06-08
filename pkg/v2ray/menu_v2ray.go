@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/AkariOficial/v2ray_golang/pkg/clean"
+	"github.com/AkariOficial/v2ray_golang/pkg/input"
 	menufunctions "github.com/AkariOficial/v2ray_golang/pkg/v2ray/menu_functions"
 	submenu "github.com/AkariOficial/v2ray_golang/pkg/v2ray/sub_menu"
 )
@@ -15,6 +16,8 @@ type Option struct {
 
 
 func showMenu() {
+
+    clean.Clear()
 
     fmt.Println("--------------------------")
     fmt.Println("        Welcome!          ")
@@ -63,6 +66,7 @@ func Menu() (string, error) {
 
     } else if option.value == "2" {
 		fmt.Println("nao disponivel")
+        input.Input()
         clean.Clear()
         Menu()
 	} else if option.value == "3"{

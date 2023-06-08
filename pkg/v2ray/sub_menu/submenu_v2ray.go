@@ -1,8 +1,13 @@
 package submenu
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/AkariOficial/v2ray_golang/pkg/clean"
+)
 
 func SubMenuV2ray() string {
+    clean.Clear()
 	fmt.Println("V2RAY Core Magisk")
 	fmt.Println("")
 	fmt.Println("Necessario ter instalado o modulo do magisk:")
