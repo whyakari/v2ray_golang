@@ -11,8 +11,8 @@ type Option struct {
 func showMenu() {
 
     fmt.Println("--------------------------")
-    fmt.Println("       Bem-Vindo          ")
-    fmt.Println("   Escolha sua opção      ")
+    fmt.Println("        Welcome!          ")
+    fmt.Println("   Chooice your option    ")
     fmt.Println("--------------------------")
     fmt.Println("")
     fmt.Println("(1) - v2ray")
