@@ -4,12 +4,15 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/AkariOficial/v2ray_golang/pkg/v2ray"
+	"github.com/AkariOficial/v2ray_golang/pkg/clean"
+	menufunctions "github.com/AkariOficial/v2ray_golang/pkg/v2ray/menu_functions"
+	submenu "github.com/AkariOficial/v2ray_golang/pkg/v2ray/sub_menu"
 )
 
 type Option struct {
     value string
 }
+
 
 func showMenu() {
 
@@ -20,6 +23,7 @@ func showMenu() {
     fmt.Println("")
     fmt.Println("(1) - v2ray")
     fmt.Println("(2) - xray")
+    fmt.Println("(3) - exit")
     fmt.Println("")
 }
 
@@ -54,17 +58,19 @@ func Menu() (string, error) {
     }
 
     if option.value == "1" {
-        opts := v2ray.SubMenuV2ray()
-        opts = v2ray.SubMenuV2rayFuncoes(opts)
+        opts := submenu.SubMenuV2ray()
+        opts = menufunctions.SubMenuV2rayFuncoes(opts)
 
     } else if option.value == "2" {
 		fmt.Println("nao disponivel")
-        v2ray.Menu()
-	} else if option.value == "0" {
-		os.Exit(0)
-	} else {
-		fmt.Println("Opção inválida! Tente novamente.")
-	}
+        clean.Clear()
+        Menu()
+	} else if option.value == "3"{
+		fmt.Println("Bye!")
+        os.Exit(0)
+    } else {
+        fmt.Println("Option invalid! try again.")
+    }
 
     return option.value, nil
 }

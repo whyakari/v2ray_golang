@@ -1,4 +1,4 @@
-package v2ray
+package submenu
 
 import "fmt"
 

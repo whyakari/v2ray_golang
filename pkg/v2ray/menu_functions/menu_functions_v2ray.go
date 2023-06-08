@@ -1,12 +1,13 @@
-package v2ray
+package menufunctions
 
 import (
 	"fmt"
 	"os/exec"
+
 	"github.com/AkariOficial/v2ray_golang/pkg/clean"
 	"github.com/AkariOficial/v2ray_golang/pkg/sleep"
 	"github.com/AkariOficial/v2ray_golang/pkg/types"
-	"github.com/AkariOficial/v2ray_golang/pkg/v2ray"
+	submenu "github.com/AkariOficial/v2ray_golang/pkg/v2ray/sub_menu"
 )
 
 func SubMenuV2rayFuncoes(opt string) string {
@@ -55,7 +56,7 @@ func SubMenuV2rayFuncoes(opt string) string {
 			fmt.Println("Configuração JSON em breve...")
             sleep.Sleep(2)
             clean.Clear()
-			opt = v2ray.SubMenuV2rayFuncoes("3")
+			opt = SubMenuV2rayFuncoes("3")
     
 		} else if opt == "2" {
             clean.Clear()
@@ -78,7 +79,7 @@ func SubMenuV2rayFuncoes(opt string) string {
             opt = SubMenuV2rayFuncoes("3")
 		} else if opt == "5" {
 			clean.Clear()
-			opt = SubMenuV2ray()
+			opt = submenu.SubMenuV2ray()
 		}
 	}
 
