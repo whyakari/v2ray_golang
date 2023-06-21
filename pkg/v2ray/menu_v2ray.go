@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/AkariOficial/v2ray_golang/pkg/clean"
-	"github.com/AkariOficial/v2ray_golang/pkg/input"
-	menufunctions "github.com/AkariOficial/v2ray_golang/pkg/v2ray/menu_functions"
-	submenu "github.com/AkariOficial/v2ray_golang/pkg/v2ray/sub_menu"
+	"github.com/whyakari/v2ray_golang/pkg/clean"
+	"github.com/whyakari/v2ray_golang/pkg/input"
+	menufunctions "github.com/whyakari/v2ray_golang/pkg/v2ray/menu_functions"
+	submenu "github.com/whyakari/v2ray_golang/pkg/v2ray/sub_menu"
 )
 
 type Option struct {
