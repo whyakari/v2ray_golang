@@ -2,8 +2,7 @@ package submenu
 
 import (
 	"fmt"
-
-	"github.com/AkariOficial/v2ray_golang/pkg/clean"
+	"github.com/whyakari/v2ray_golang/pkg/clean"
 )
 
 func SubMenuV2ray() string {
