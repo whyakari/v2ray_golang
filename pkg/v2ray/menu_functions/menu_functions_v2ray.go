@@ -3,11 +3,10 @@ package menufunctions
 import (
 	"fmt"
 	"os/exec"
-
-	"github.com/AkariOficial/v2ray_golang/pkg/clean"
-	"github.com/AkariOficial/v2ray_golang/pkg/sleep"
-	"github.com/AkariOficial/v2ray_golang/pkg/types"
-	submenu "github.com/AkariOficial/v2ray_golang/pkg/v2ray/sub_menu"
+	"github.com/whyakari/v2ray_golang/pkg/clean"
+	"github.com/whyakari/v2ray_golang/pkg/sleep"
+	"github.com/whyakari/v2ray_golang/pkg/types"
+	submenu "github.com/whyakari/v2ray_golang/pkg/v2ray/sub_menu"
 )
 
 func SubMenuV2rayFuncoes(opt string) string {
