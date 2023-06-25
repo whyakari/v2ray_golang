@@ -3,7 +3,6 @@ package v2ray
 import (
 	"fmt"
 	"os"
-
 	"github.com/whyakari/v2ray_golang/pkg/clean"
 	"github.com/whyakari/v2ray_golang/pkg/input"
 	menufunctions "github.com/whyakari/v2ray_golang/pkg/v2ray/menu_functions"
@@ -65,7 +64,7 @@ func Menu() (string, error) {
         opts = menufunctions.SubMenuV2rayFuncoes(opts)
 
     } else if option.value == "2" {
-		fmt.Println("nao disponivel")
+		fmt.Println("not available")
         input.Input()
         clean.Clear()
         Menu()
