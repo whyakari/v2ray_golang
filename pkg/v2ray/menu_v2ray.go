@@ -2,7 +2,7 @@ package v2ray
 
 import (
 	"fmt"
-	"os"
+	"github.com/whyakari/v2ray_golang/pkg/ascii"
 	"github.com/whyakari/v2ray_golang/pkg/clean"
 	"github.com/whyakari/v2ray_golang/pkg/input"
 	menufunctions "github.com/whyakari/v2ray_golang/pkg/v2ray/menu_functions"
@@ -22,9 +22,9 @@ func showMenu() {
     fmt.Println("   Chooice your option    ")
     fmt.Println("--------------------------")
     fmt.Println("")
-    fmt.Println("(1) - v2ray")
-    fmt.Println("(2) - xray")
-    fmt.Println("(3) - exit")
+    fmt.Println("1 - v2ray")
+    fmt.Println("2 - xray")
+    fmt.Println("3 - exit")
     fmt.Println("")
 }
 
@@ -70,9 +70,8 @@ func Menu() (string, error) {
         clean.Clear()
         Menu()
 
-	} else if option.value == "3"{
-		fmt.Println("Byeee!")
-        os.Exit(0)
+	} else if option.value == "3" || option.value == "exit" {
+        ascii.Ascii_Text(option.value)
 
     } else {
         fmt.Println("Option invalid! try again.")
