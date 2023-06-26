@@ -13,7 +13,6 @@ type Option struct {
     value string
 }
 
-
 func showMenu() {
 
     clean.Clear()
@@ -31,7 +30,7 @@ func showMenu() {
 
 func readOption() (Option, error) {
     var opt string
-    fmt.Print("Your option: ")
+    fmt.Print("console ")
     _, err := fmt.Scanln(&opt)
     if err != nil {
         return Option{}, err
@@ -52,9 +51,11 @@ Menu of the v2ray
 func Menu() (string, error) {
     showMenu()
     option, err := readOption()
+
     if err != nil {
         return "", err
     }
+
     if err := validateOption(option); err != nil {
         return "", err
     }
@@ -68,13 +69,14 @@ func Menu() (string, error) {
         input.Input()
         clean.Clear()
         Menu()
+
 	} else if option.value == "3"{
-		fmt.Println("Bye!")
+		fmt.Println("Byeee!")
         os.Exit(0)
+
     } else {
         fmt.Println("Option invalid! try again.")
     }
 
     return option.value, nil
 }
-
