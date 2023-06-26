@@ -18,9 +18,11 @@ Changelog
  - fix where iptables didn't work in version 4.x (updated to 5.4.1).
  - fix in v2ray/scripts/v2ray.service where the whole script didn't work.
 
+Thanks
+ - Thanks to [fitenne](https://github.com/fitenne/v2ray-magisk) for [fixing the v2ray version 5 shift break fix](https://github.com/AkariOficial/v2ray-magisk/commit/d05f038bbe5f9e9d372b2abb90e35cd6ddf3e49f).
+
 ### Config
  - V2ray config file is store in /data/v2ray/config.json.
-
 
 ## Usage
 ### Normal usage ( Default and Recommended )
