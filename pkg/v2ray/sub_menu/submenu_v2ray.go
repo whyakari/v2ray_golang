@@ -23,7 +23,7 @@ func SubMenuV2ray() string {
 	fmt.Println("")
 
 	var opts string
-	fmt.Print("Choice ur option: ")
+	fmt.Print("console ")
 	fmt.Scanln(&opts)
 	return opts
 }
