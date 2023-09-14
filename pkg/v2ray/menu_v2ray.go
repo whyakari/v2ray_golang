@@ -18,8 +18,7 @@ func showMenu() {
     clean.Clear()
 
     fmt.Println("--------------------------")
-    fmt.Println("        Welcome!          ")
-    fmt.Println("   Chooice your option    ")
+    fmt.Println("       Welcome! ニャン    ")
     fmt.Println("--------------------------")
     fmt.Println("")
     fmt.Println("1 - v2ray")
